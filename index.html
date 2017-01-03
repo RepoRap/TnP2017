@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+        <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title">T&P DashBoard</span>
+                    <!-- Add spacer, to align navigation to the right -->
+                    <div class="mdl-layout-spacer"></div>
+                    <!-- Navigation. We hide it in small screens. -->
+                    <nav class="mdl-navigation mdl-layout--large-screen-only">
+
+                        <a class="mdl-navigation__link" href="">Help</a>
+                        <a class="mdl-navigation__link" href="">Report</a>
+
+                    </nav>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">T&P DashBoard</span>
+                <nav class="mdl-navigation">
+
+                    <a class="mdl-navigation__link" href="">Help</a>
+                    <a class="mdl-navigation__link" href="">Report</a>
+                </nav>
+            </div>
+            <main class="mdl-layout__content">
+                <div class="page-content">
+                    <center><h1>Enter Pin</h1>
+                    <form action="http://crtgu.azurewebsites.net/index.php" method="post">
+                        Student Pin:<input type="number" name="lgid">
+                        <br>
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+                            Submit
+                        </button>
+                    </form>
+                    </center>
+                </div>
+
+            </main>
+        </div>
+
+    </body>
+</html>

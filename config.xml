@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>TnP</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="http://crtgu.azurewebsites.net/*"/>
+    <access origin="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <access origin="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css"/>
+    <access origin="https://code.getmdl.io/1.2.1/material.min.js"/>
+
+</widget>
